@@ -54,7 +54,7 @@ public class StepImplementation extends BaseTest {
 
     }
 
-    @Step("<xpath> Chose Product Group")
+    @Step("<xpath> Choose Product Group")
     public void selectProductGroup(String xpath) {
 
         MobileElement element = appiumDriver.findElement(By.xpath(xpath));

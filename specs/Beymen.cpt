@@ -28,7 +28,7 @@
 # Select Product Group
 
 * "2" Wait
-* "//*[@text='Ürün Çeşidi']" Chose Product Group
+* "//*[@text='Ürün Çeşidi']" Choose Product Group
 * "2" Wait
 
 # Select Product Item
