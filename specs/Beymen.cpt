@@ -1,0 +1,62 @@
+
+
+# Click Skip Navigation
+
+* "3" Wait
+* "com.android.permissioncontroller:id/permission_allow_one_time_button" Skip Navigation
+* "1" Wait
+
+
+# Click Search Button
+
+* "1" Wait
+* "com.mobisoft.beymen:id/navigation_search" Click Search
+* "1" Wait
+
+# Search Item
+
+* "2" Wait
+* "com.mobisoft.beymen:id/search_bar_text" Click and Write "pantolon"
+* "2" Wait
+
+# Filter Item
+
+* "2" Wait
+* "com.mobisoft.beymen:id/filterView" Filter
+* "2" Wait
+
+# Select Product Group
+
+* "2" Wait
+* "//*[@text='Ürün Çeşidi']" Chose Product Group
+* "2" Wait
+
+# Select Product Item
+
+* "2" Wait
+* "//*[@text='Jean Pantolon']" Select Product Group
+* "2" Wait
+
+# List Product Item
+
+
+* "com.mobisoft.beymen:id/btn_apply_filter" List Item
+* "3" Wait
+
+# Select Item
+
+* "2" Wait
+* "(//*[@resource-id='com.mobisoft.beymen:id/productImage'])[2]" Select Product
+* "2" Wait
+
+# Add To Favorite
+
+* "2" Wait
+* "com.mobisoft.beymen:id/addToFavoriteButton" Add To Favorite
+* "5" Wait
+
+# Check Login Page
+
+* "1" Wait
+* "//*[@text='Kullanıcı Girişi']" Check Login Page
+* "1" Wait
